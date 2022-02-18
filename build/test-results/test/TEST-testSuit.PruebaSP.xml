@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuit.PruebaSP" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-18T16:13:43" hostname="DESKTOP-VGEHE2S" time="2.164">
+  <properties/>
+  <testcase name="consultaDeudaEntel" classname="testSuit.PruebaSP" time="2.164"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
