@@ -1,13 +1,16 @@
 package testClasses;
 
+import javafx.scene.shape.VLineTo;
 import org.openqa.selenium.WebDriver;
 import page.ServiPag;
 import page.ServiPagInicio;
+import page.Validaciones;
 
 public class ConsultaDeudaServiPag {
 
     private ServiPag serviPag;
     private ServiPagInicio servipagInicio;
+    private Validaciones validaciones;
 
 
     public void consultaDeudaEntel(WebDriver webDriver){
@@ -19,4 +22,5 @@ public class ConsultaDeudaServiPag {
             serviPag.ingresarPass("javierpag");
             serviPag.clickIngresar();
     }
+
 }

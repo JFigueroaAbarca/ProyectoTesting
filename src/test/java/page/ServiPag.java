@@ -19,6 +19,9 @@ public class ServiPag {
     @FindBy(xpath = "/html/body/modal-container/div/div/login-modal-login/div/div[2]/form/section/button")
     WebElement btnIngresar;
 
+    @FindBy(xpath = "/html/body/modal-container/div/div/login-modal-login/div/div[2]/form/section/div[3]")
+    WebElement textError;
+
     WebDriver webDriver;
 
     public ServiPag (WebDriver webDriver)  {
@@ -31,14 +34,19 @@ public class ServiPag {
     }
 
     public void ingresarRut(String ingresarRut){
+
         inputRut.sendKeys(ingresarRut);
     }
 
     public void ingresarPass(String ingresarPass){
+
         inputPass.sendKeys(ingresarPass);
             }
 
     public void clickIngresar(){
+
         btnIngresar.click();
     }
+
+
 }
